@@ -1,0 +1,29 @@
+appId: com.example.jetsnack
+---
+- launchApp:
+    clearState: true
+- assertVisible: "Filters"
+- tapOn: "Filters"
+- scrollUntilVisible:
+    element: "Max Calories"
+
+- assertVisible: "Chips & crackers"
+- tapOn: "Chips & crackers"
+- assertVisible: "Fruit snacks"
+- tapOn: "Fruit snacks"
+- assertVisible: "Desserts"
+- tapOn: "Desserts"
+- assertVisible: "Nuts"
+- tapOn: "Nuts"
+- tapOn:
+    point: 0%,3%
+
+
+
+
+
+
+
+
+
+
